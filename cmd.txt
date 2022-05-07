@@ -1,0 +1,10 @@
+// setup wireless debugging
+adb tcpip 5555
+adb shell ifconfig
+adb connect 192.168.124.53
+
+
+// access in app developer menu 
+// see: https://reactnative.dev/docs/debugging
+adb shell input keyevent 82 
+
