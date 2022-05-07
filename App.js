@@ -6,12 +6,14 @@ import { FlexDimensions } from './components/FlexDimensions';
 import { Dimensions } from './components/Dimensions';
 import { MyFlexbox } from './components/MyFlexbox';
 import { FlexDirection } from './components/FlexDirection';
+import { DirectionLayout } from './components/DirectionLayout';
+
 
 const MyApp = () => {
 
     return (
         <View style={{flex: 1 }}>
-             <FlexDirection />
+             <DirectionLayout />
         </View>
    
     )
